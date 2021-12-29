@@ -11,7 +11,7 @@ return (
     </Link>
         <p>
           {numeral(amount / 100).format('$0,0.00')}
-           _
+           -
            {moment(createdAt).format('MMMM Do, YYYY')}
         </p>
   </div>
